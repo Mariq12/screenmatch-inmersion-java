@@ -34,7 +34,7 @@ Calcular la evaluación media de una película con datos obtenidos por los usuar
 
 3. Configurar 
     3.1. Ingresar a Editar variables de entorno del sistema desde el buscador de Windows.
-
+    ![Paso 1](https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg)
 
 ### VsCode
 
