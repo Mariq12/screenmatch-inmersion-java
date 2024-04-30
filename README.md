@@ -1,2 +1,2 @@
-# :Desafío screenmatch de la inmersión java
+:# Desafío screenmatch de la inmersión java
 
