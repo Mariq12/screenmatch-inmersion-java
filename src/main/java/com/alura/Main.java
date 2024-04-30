@@ -54,8 +54,9 @@ public class Main {
             teclado.close(); // Cerrar el Scanner
 
             double mediaEvaluacion = mediaEvaluacionUsuario / cantidadEvaluaciones;
+            String mediaFormateada = String.format("%.2f", mediaEvaluacion);
             System.out.println("\n La media de la evaluación de " + nombres[indicePelicula] +
-                    " calculada por el usuario es: " + mediaEvaluacion);
+                    " calculada por el usuario es: " + mediaFormateada);
             System.out.println();
 
             indicePelicula++;
