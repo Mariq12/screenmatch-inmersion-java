@@ -2,8 +2,14 @@
 
 El código Java proporciona un programa interactivo que muestra información sobre una película, como su título, fecha de lanzamiento, evaluación y sinopsis. Luego, solicita al usuario que ingrese tres calificaciones para la película y calcula la media de estas calificaciones. Finalmente, muestra la media calculada al usuario. 
 
+---
+
 ## Desafío
     - Calcular la evaluación media de una película con datos obtenidos por los usuarios usando el ciclo while;
+    - Subir sus proyectos a GitHub y compartirlos;
+    - Crear un README para su repositorio que hable sobre las especificaciones del proyecto y que muestre un gif o video del funcionamiento del programa.
+    
+---
 
 ## Uso de condicionales IF Y ELSE
 El programa verifica una condición:
