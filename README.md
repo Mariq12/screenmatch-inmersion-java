@@ -43,8 +43,9 @@ El programa verifica una condición:
     3.1. Ingresar a Editar variables de entorno del sistema desde el buscador de Windows.
 
 <p align="center">
-  <img src="[URL_DE_LA_IMAGEN](https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg)" alt="Paso 1"/>
+  <img src="https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg" alt="Paso 1"/>
 </p>
+
 
 
 ![Paso 1](https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg)
