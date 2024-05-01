@@ -1,6 +1,7 @@
 # <p align="center">Desafío screenmatch de la inmersión java</p>
 
 El código Java proporciona un programa interactivo que muestra información sobre una película, como su título, fecha de lanzamiento, evaluación y sinopsis. Luego, solicita al usuario que ingrese tres calificaciones para la película y calcula la media de estas calificaciones. Finalmente, muestra la media calculada al usuario. 
+Además, verifica una condición usando `if` y `else`.
 
 ---
 
@@ -22,6 +23,14 @@ El programa verifica una condición:
 
         Película Retro que vale la pena ver
 
+---
+
+
+## Uso del ciclo While
+
+El bucle `while` se usa para solicitar al usuario las calificaciones de una película. Mientras el contador de evaluaciones sea menor que la cantidad total de evaluaciones esperadas, el programa sigue solicitando y sumando las calificaciones ingresadas por el usuario. Una vez que se han ingresado todas las calificaciones, el bucle termina y se calcula la media de las calificaciones ingresadas.
+
+---
 
 ## Tecnologías utilizadas durante el curso
 * Java
