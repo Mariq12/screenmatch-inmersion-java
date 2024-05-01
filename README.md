@@ -25,7 +25,9 @@ El programa verifica una condición:
 * Maven
 * Git
 
-##  JDK JAVA 
+## Configuración
+
+### JDK JAVA 
 **Pasos:**
 
 1. Descargar en el siguiente link la versión jdk-17:
