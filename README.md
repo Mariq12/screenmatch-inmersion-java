@@ -46,13 +46,11 @@ El programa verifica una condición:
   <img src="https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg" alt="Paso 1"/>
 </p>
 
-
-
-![Paso 1](https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg)
-
     3.2. Dar clic en Variables de entorno.
 
-   ![Paso 2](https://live.staticflickr.com/65535/53690611433_df0ed822d6.jpg)
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53690611433_df0ed822d6.jpg" alt="Paso 2"/>
+</p>
 
     3.3. Ir a la ruta del JDK 
         - Copiar la ruta del JDK.
@@ -62,7 +60,9 @@ El programa verifica una condición:
         - Pegar la ruta del JDK.
         - Clic en Aceptar
 
-   ![Paso 3](https://live.staticflickr.com/65535/53689516437_0d5b5c50fb.jpg)
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53689516437_0d5b5c50fb.jpg" alt="Paso 3"/>
+</p>
     
     3.4. Ingresar en en el `Path` de **variables del sistema** dando doble clic
         - Dar clic en nuevo.
@@ -71,7 +71,9 @@ El programa verifica una condición:
         - Pegar la ruta del JDK.
         - Clic en Aceptar
 
-   ![Paso 4](https://live.staticflickr.com/65535/53690748379_622c125c14.jpg)
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53690748379_622c125c14.jpg" alt="Paso 4"/>
+</p>
 
 ### VsCode
 
