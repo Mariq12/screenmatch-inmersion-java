@@ -42,7 +42,7 @@ El programa verifica una condición:
 
     3.1. Ingresar a Editar variables de entorno del sistema desde el buscador de Windows.
 
-   ![Paso 1](https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg)
+   <p align="center">![Paso 1](https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg)</p>
 
     3.2. Dar clic en Variables de entorno.
 
