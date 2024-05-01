@@ -25,7 +25,6 @@ El programa verifica una condici√≥n:
 
 ---
 
-
 ## Uso del ciclo While
 
 El bucle `while` se usa para solicitar al usuario las calificaciones de una pel√≠cula. Mientras el contador de evaluaciones sea menor que la cantidad total de evaluaciones esperadas, el programa sigue solicitando y sumando las calificaciones ingresadas por el usuario. Una vez que se han ingresado todas las calificaciones, el bucle termina y se calcula la media de las calificaciones ingresadas.
@@ -40,6 +39,8 @@ El bucle `while` se usa para solicitar al usuario las calificaciones de una pel√
 * Maven
 * Git
 
+---
+
 ## Configuraci√≥n
 
 ### JDK JAVA 
@@ -50,8 +51,6 @@ El bucle `while` se usa para solicitar al usuario las calificaciones de una pel√
         https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 
 2. Instalar JDK
-
-
 
 3. Configurar 
 
@@ -92,6 +91,8 @@ El bucle `while` se usa para solicitar al usuario las calificaciones de una pel√
   <img src="https://live.staticflickr.com/65535/53690748379_622c125c14.jpg" alt="Paso 4"/>
 </p>
 
+---
+
 ### VsCode
 
    **Pasos:**
@@ -101,6 +102,8 @@ El bucle `while` se usa para solicitar al usuario las calificaciones de una pel√
         https://code.visualstudio.com/
 
 2. Instalar VsCode 
+
+---
 
 ### Maven
 
@@ -119,6 +122,8 @@ El bucle `while` se usa para solicitar al usuario las calificaciones de una pel√
         `C:\Program Files\Java\jdk-17\bin`
     - Pegar la ruta del JDK.
     - Clic en Aceptar
+
+---
 
 ### Git
 
