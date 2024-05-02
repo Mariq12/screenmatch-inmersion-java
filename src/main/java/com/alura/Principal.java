@@ -52,27 +52,27 @@ public class Principal {
         System.out.print("Ingrese el año de lanzamiento de la película: ");
         int fechaDeLanzamiento = teclado.nextInt();
         teclado.nextLine();
-        // Crea un nuevo objeto Scanner con el delimitador adecuado
-        Scanner doubleScanner = new Scanner(System.in).useLocale(Locale.US);
-        System.out.print("Ingrese la evaluación de la película: ");
-        double evaluacion = doubleScanner.nextDouble(); // Usa este nuevo Scanner para leer valores decimales
-        doubleScanner.nextLine(); // Limpia el buffer del nuevo Scanner
-        System.out.print("¿Incluido en el plan básico? (true/false): ");
-        boolean incluidoEnElPlanBasico = teclado.nextBoolean();
-        teclado.nextLine();
-        System.out.print("Ingrese la sinopsis de la película: ");
-        String sinopsis = teclado.nextLine();
-        System.out.print("Ingrese la duración en minutos de la película: ");
-        int duracionEnMinutos = teclado.nextInt();
-        teclado.nextLine();
-        Pelicula peliculaUsuario = new Pelicula();
-        peliculaUsuario.setNombre(nombre);
-        peliculaUsuario.setFechaDeLanzamiento(fechaDeLanzamiento);
-        peliculaUsuario.setEvaluacion(evaluacion);
-        peliculaUsuario.setIncluidoEnElPlanBasico(incluidoEnElPlanBasico);
-        peliculaUsuario.setSinopsis(sinopsis);
-        peliculaUsuario.setTiempoDeDuracionEnMinutos(duracionEnMinutos);
-        peliculaUsuario.muestraFichaTecnica();
+        try (Scanner doubleScanner = new Scanner(System.in).useLocale(Locale.US)) {
+            System.out.print("Ingrese la evaluación de la película: ");
+            double evaluacion = doubleScanner.nextDouble(); // Usa este nuevo Scanner para leer valores decimales
+            doubleScanner.nextLine(); // Limpia el buffer del nuevo Scanner
+            System.out.print("¿Incluido en el plan básico? (true/false): ");
+            boolean incluidoEnElPlanBasico = teclado.nextBoolean();
+            teclado.nextLine();
+            System.out.print("Ingrese la sinopsis de la película: ");
+            String sinopsis = teclado.nextLine();
+            System.out.print("Ingrese la duración en minutos de la película: ");
+            int duracionEnMinutos = teclado.nextInt();
+            teclado.nextLine();
+            Pelicula peliculaUsuario = new Pelicula();
+            peliculaUsuario.setNombre(nombre);
+            peliculaUsuario.setFechaDeLanzamiento(fechaDeLanzamiento);
+            peliculaUsuario.setEvaluacion(evaluacion);
+            peliculaUsuario.setIncluidoEnElPlanBasico(incluidoEnElPlanBasico);
+            peliculaUsuario.setSinopsis(sinopsis);
+            peliculaUsuario.setTiempoDeDuracionEnMinutos(duracionEnMinutos);
+            peliculaUsuario.muestraFichaTecnica();
+        }
     }
 
     private void registrarSerie(Scanner teclado) {
