@@ -8,7 +8,7 @@ public class Main {
         System.out.println("\n -----Bienvenidos a la inmersión en Java-----");
 
         // Declaración de variables para la única película
-        String nombre = "Harry Potter y la piedra filosofal";
+        String nombre = "Harry Potter y la piedra filosofal"; 
         int fechaDeLanzamiento = 2001;
         double evaluacion = 4.8;
         boolean incluidoEnElPlanBasico = true;
