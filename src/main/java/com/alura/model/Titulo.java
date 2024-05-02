@@ -28,6 +28,9 @@ public class Titulo {
         return evaluacion;
     }
 
+    public void setEvaluacion(double evaluacion) {
+        this.evaluacion = evaluacion;
+    }
 
     public boolean isIncluidoEnElPlanBasico() {
         return incluidoEnElPlanBasico;
@@ -57,6 +60,9 @@ public class Titulo {
         System.out.println("****FICHA TÉCNICA****");
         System.out.println("Nombre del título: " + nombre);
         System.out.println("Fecha de Lanzamiento: " + fechaDeLanzamiento);
+        System.out.println("Evaluación: " + evaluacion);
+        System.out.println("Incluido en el plan básico: " + incluidoEnElPlanBasico);
+        System.out.println("Sinopsis: " + sinopsis);
         System.out.println("Tiempo de duración: " + getTiempoDeDuracionEnMinutos() + " minutos");
     }
 }
