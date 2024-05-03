@@ -1,6 +1,6 @@
 package com.alura.model;
 
-public class Titulo {
+public abstract  class Titulo {
     private String nombre;
     private int fechaDeLanzamiento;
     private double evaluacion;
@@ -55,6 +55,8 @@ public class Titulo {
     public void setTiempoDeDuracionEnMinutos(int tiempoDeDuracionEnMinutos) {
         this.tiempoDeDuracionEnMinutos = tiempoDeDuracionEnMinutos;
     }
+
+    public abstract String obtenerTipo();
 
     public void muestraFichaTecnica(){
         System.out.println("****FICHA TÉCNICA****");

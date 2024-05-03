@@ -1,6 +1,8 @@
 package com.alura.model;
 
-public class Pelicula {
+public class Pelicula extends Titulo {
+    
+
     private String nombre;
     private int fechaDeLanzamiento;
     private double evaluacion;
@@ -64,5 +66,10 @@ public class Pelicula {
         System.out.println("Incluido en el plan básico: " + incluidoEnElPlanBasico);
         System.out.println("Sinopsis: " + sinopsis);
         System.out.println("Tiempo de duración: " + getTiempoDeDuracionEnMinutos() + " minutos");
+    }
+
+    @Override
+    public String obtenerTipo() {
+        return "Pelicula";
     }
 }

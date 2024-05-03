@@ -34,4 +34,9 @@ public class Serie  extends Titulo{
     public void setDuracionEnMinutosPorEpisodio(int duracionEnMinutosPorEpisodio) {
         this.duracionEnMinutosPorEpisodio = duracionEnMinutosPorEpisodio;
     }
+
+    @Override
+    public String obtenerTipo() {
+        return "Serie";
+    }
 }
