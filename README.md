@@ -96,18 +96,18 @@ Se calcula el maraton de peliculas y series.
 Dar clic en reproducir
 
 <p align="center">
-  <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/60d529fb-34a2-43f0-a6a2-c60a086cc8ea" alt="vid-a2-1">
+  <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/fd632d48-ba52-4443-aaef-007b58360e71" alt="vid-a2-1">
 </p>
 
-[Ver video en YouTube](https://youtu.be/RLcPPVEHur4?si=Mjwp_X4F9LlNZDaQ)
+[Ver video en YouTube](https://www.youtube.com/watch?v=NjJEssxTMow)
 
 ### EJEMPLO COMPLETO
 
 <p align="center">
-  <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/0b3d4b55-e2a4-42e5-b80b-e474e789df9d" alt="vid-a2-2">
+  <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/b66bc36b-ef9a-4d81-aea9-6d413e7d06d7" alt="vid-a2-2">
 </p>
 
-[Ver video en YouTube](https://www.youtube.com/watch?v=Hz-RMf_xkIY)
+[Ver video en YouTube](https://youtu.be/KROXtK0zE5c)
 
 ## Tecnologías utilizadas durante el curso
 * Java
