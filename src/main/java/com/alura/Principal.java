@@ -26,7 +26,7 @@ public class Principal {
                 System.out.print("Elija una opción: ");
                 opcion = teclado.nextInt();
                 teclado.nextLine(); // Limpiar el buffer
-                
+
                 switch (opcion) {
                     case 1:
                         System.out.println("\n*** Registro de Nueva Película ***");
@@ -51,7 +51,7 @@ public class Principal {
     private void registrarContenido(Titulo contenido) {
         System.out.printf("Ingrese el nombre del título: ");
         String nombre = teclado.nextLine();
-        
+
         int fechaDeLanzamiento;
         while (true) {
             try {
@@ -62,7 +62,7 @@ public class Principal {
                 System.out.println("Por favor, ingrese un año válido.");
             }
         }
-        
+
         double evaluacion;
         while (true) {
             try {
@@ -77,22 +77,25 @@ public class Principal {
                 System.out.println("Por favor, ingrese una evaluación válida.");
             }
         }
-        
+
         boolean incluidoEnElPlanBasico;
         while (true) {
-            System.out.print("¿Incluido en el plan básico? (true/false): ");
+            System.out.print("¿Incluido en el plan básico? (Si/No): ");
             String incluido = teclado.nextLine();
-            if (incluido.equalsIgnoreCase("true") || incluido.equalsIgnoreCase("false")) {
-                incluidoEnElPlanBasico = Boolean.parseBoolean(incluido);
+            if (incluido.equalsIgnoreCase("Si")) {
+                incluidoEnElPlanBasico = true;
+                break;
+            } else if (incluido.equalsIgnoreCase("No")) {
+                incluidoEnElPlanBasico = false;
                 break;
             } else {
-                System.out.println("Por favor, ingrese 'true' o 'false'.");
+                System.out.println("Por favor, ingrese 'Si' o 'No'.");
             }
         }
-        
+
         System.out.print("Ingrese la sinopsis: ");
         String sinopsis = teclado.nextLine();
-        
+
         contenido.setNombre(nombre);
         contenido.setFechaDeLanzamiento(fechaDeLanzamiento);
         contenido.setEvaluacion(evaluacion);
@@ -119,7 +122,7 @@ public class Principal {
             teclado.nextLine();
             serie.setDuracionEnMinutosPorEpisodio(duracionEnMinutosPorEpisodio);
         }
-        
+
         contenido.muestraFichaTecnica();
     }
 }

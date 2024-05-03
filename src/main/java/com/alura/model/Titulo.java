@@ -63,7 +63,7 @@ public abstract  class Titulo {
         System.out.println("Nombre del título: " + nombre);
         System.out.println("Fecha de Lanzamiento: " + fechaDeLanzamiento);
         System.out.println("Evaluación: " + evaluacion);
-        System.out.println("Incluido en el plan básico: " + incluidoEnElPlanBasico);
+        System.out.println("Incluido en el plan básico: " + (isIncluidoEnElPlanBasico() ? "Si" : "No"));
         System.out.println("Sinopsis: " + sinopsis);
         System.out.println("Tiempo de duración: " + getTiempoDeDuracionEnMinutos() + " minutos");
     }
