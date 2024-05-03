@@ -93,8 +93,6 @@ Se registra las series
 ### Prueba 3
 Se calcula el maraton de peliculas y series.
 
-Dar clic en reproducir
-
 <p align="center">
   <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/fd632d48-ba52-4443-aaef-007b58360e71" alt="vid-a2-1">
 </p>
@@ -102,6 +100,7 @@ Dar clic en reproducir
 [Ver video en YouTube](https://www.youtube.com/watch?v=NjJEssxTMow)
 
 ### EJEMPLO COMPLETO
+Muestra el funcionamiento completo del programa:
 
 <p align="center">
   <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/b66bc36b-ef9a-4d81-aea9-6d413e7d06d7" alt="vid-a2-2">
