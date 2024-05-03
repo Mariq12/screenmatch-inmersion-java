@@ -101,6 +101,14 @@ Dar clic en reproducir
 
 [Ver video en YouTube](https://youtu.be/RLcPPVEHur4?si=Mjwp_X4F9LlNZDaQ)
 
+### EJEMPLO COMPLETO
+
+<p align="center">
+  <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/0b3d4b55-e2a4-42e5-b80b-e474e789df9d" alt="vid-a2-2">
+</p>
+
+[Ver video en YouTube](https://www.youtube.com/watch?v=Hz-RMf_xkIY)
+
 ## Tecnologías utilizadas durante el curso
 * Java
 
