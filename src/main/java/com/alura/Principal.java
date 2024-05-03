@@ -137,24 +137,26 @@ public class Principal {
         List<Titulo> maraton = new ArrayList<>();
         double totalMinutosPeliculas = 0;
         double totalMinutosSeries = 0;
-        int numeroPeliculas = 0;
-        int numeroSeries = 0;
-    
-        System.out.println("Ingresa 'listo' cuando hayas agregado todas tus películas y series.");
     
         while (true) {
-            System.out.print("Ingrese el tipo de título (Pelicula/Serie) (o 'listo' para terminar): ");
+            System.out.print(
+                """
+                    1) Pelicula 
+                    2) Serie
+                    3) Terminar
+            """);
+            
+            System.out.print("Elija una opción: ");
             String tipoTitulo = teclado.nextLine();
     
-            if (tipoTitulo.equalsIgnoreCase("listo")) {
+            if (tipoTitulo.equalsIgnoreCase("3")) {
                 break;
             }
     
             // Crear instancia de Titulo (Pelicula o Serie) según el tipo ingresado
             Titulo titulo;
-            if (tipoTitulo.equalsIgnoreCase("Pelicula")) {
+            if (tipoTitulo.equalsIgnoreCase("1")) {
                 titulo = new Pelicula();
-                numeroPeliculas++;
                 System.out.print("Ingrese el nombre de la película: ");
                 String nombre = teclado.nextLine();
                 titulo.setNombre(nombre);
@@ -165,9 +167,8 @@ public class Principal {
                 titulo.setTiempoDeDuracionEnMinutos(duracion);
     
                 totalMinutosPeliculas += duracion;
-            } else if (tipoTitulo.equalsIgnoreCase("Serie")) {
+            } else if (tipoTitulo.equalsIgnoreCase("2")) {
                 titulo = new Serie();
-                numeroSeries++;
                 System.out.print("Ingrese el nombre de la serie: ");
                 String nombre = teclado.nextLine();
                 titulo.setNombre(nombre);
