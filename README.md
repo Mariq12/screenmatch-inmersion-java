@@ -147,3 +147,8 @@ El bucle `while` se usa para solicitar al usuario las calificaciones de una pel√
 
         git config --global user.email "ejemplo@email.com"
 
+# AULA 2
+
+<iframe width="600" height = "420"
+src="https://www.youtube.com/embed/qKf2EwInKbA">
+</iframe>
