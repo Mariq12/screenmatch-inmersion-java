@@ -29,9 +29,11 @@ public class Principal {
                 
                 switch (opcion) {
                     case 1:
+                        System.out.println("\n*** Registro de Nueva Película ***");
                         registrarContenido(new Pelicula());
                         break;
                     case 2:
+                        System.out.println("\n*** Registro de Nueva Serie ***");
                         registrarContenido(new Serie());
                         break;
                     case 3:
@@ -116,5 +118,4 @@ public class Principal {
         
         contenido.muestraFichaTecnica();
     }
-    
 }
