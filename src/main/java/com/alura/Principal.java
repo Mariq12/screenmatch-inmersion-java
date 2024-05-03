@@ -1,6 +1,5 @@
 package com.alura;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 import com.alura.model.Pelicula;
