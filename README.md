@@ -90,9 +90,13 @@ Se registra las series
   <img src="https://live.staticflickr.com/65535/53696276399_95e94769fc.jpg" alt="Paso 2"/>
 </p>
 
-### Prueba 2
-Se calcula el maraton de peliculas y series
+### Prueba 3
+Se calcula el maraton de peliculas y series.
+Dar clic en reproducir
 
+<p align="center">
+  <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/60d529fb-34a2-43f0-a6a2-c60a086cc8ea" alt="vid-a2-1">
+</p>
 
 
 ## Tecnologías utilizadas durante el curso
@@ -105,8 +109,9 @@ Se calcula el maraton de peliculas y series
 * GitHub
 ---
 
-
-## Instrucciones de prueba
+<h2 align="center">
+Instrucciones de prueba
+</h2>
 Para probar el proyecto se lo puede clonar o crear un proyecto directo en GitHub y copiar el código.
 
 A continuación, se realiza una breve descripción de los pasos a realizar para probar el proyecto.
