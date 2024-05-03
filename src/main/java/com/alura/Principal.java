@@ -141,11 +141,11 @@ public class Principal {
         while (true) {
             System.out.print(
                 """
-                    1) Pelicula 
-                    2) Serie
+                    1) **Película**
+                    2) **Serie**
                     3) Terminar
-            """);
-            
+                """);
+    
             System.out.print("Elija una opción: ");
             String tipoTitulo = teclado.nextLine();
     
@@ -156,24 +156,26 @@ public class Principal {
             // Crear instancia de Titulo (Pelicula o Serie) según el tipo ingresado
             Titulo titulo;
             if (tipoTitulo.equalsIgnoreCase("1")) {
-                titulo = new Pelicula();
+                Pelicula pelicula = new Pelicula();
                 System.out.print("Ingrese el nombre de la película: ");
                 String nombre = teclado.nextLine();
-                titulo.setNombre(nombre);
+                pelicula.setNombre(nombre);
     
                 System.out.print("Ingrese la duración en minutos: ");
                 int duracion = teclado.nextInt();
                 teclado.nextLine(); // Limpiar el buffer
-                titulo.setTiempoDeDuracionEnMinutos(duracion);
+                pelicula.setTiempoDeDuracionEnMinutos(duracion);
     
                 totalMinutosPeliculas += duracion;
-            } else if (tipoTitulo.equalsIgnoreCase("2")) {
-                titulo = new Serie();
-                System.out.print("Ingrese el nombre de la serie: ");
-                String nombre = teclado.nextLine();
-                titulo.setNombre(nombre);
+                titulo = pelicula;
     
-                Serie serie = (Serie) titulo;
+                System.out.println("**Película agregada:** " + nombre);
+    
+            } else if (tipoTitulo.equalsIgnoreCase("2")) {
+                Serie serie = new Serie();
+                System.out.print("Ingrese el nombre de la serie: ");
+                String nombreSerie = teclado.nextLine();
+                serie.setNombre(nombreSerie);
     
                 System.out.print("Ingrese el número de temporadas: ");
                 int temporadas = teclado.nextInt();
@@ -191,6 +193,10 @@ public class Principal {
                 serie.setDuracionEnMinutosPorEpisodio(duracionEnMinutosPorEpisodio);
     
                 totalMinutosSeries += (temporadas * episodiosPorTemporada * duracionEnMinutosPorEpisodio);
+                titulo = serie;
+    
+                System.out.println("**Serie agregada:** " + nombreSerie);
+    
             } else {
                 System.out.println("Tipo de título no válido.");
                 continue;
@@ -203,7 +209,7 @@ public class Principal {
         // Mostrar la ficha técnica de la maratón
         System.out.println("\n**** FICHA TÉCNICA DE LA MARATÓN ****\n");
         for (Titulo t : maraton) {
-            System.out.println("Nombre del título: " + t.getNombre());
+            System.out.println("Nombre de la " + (t instanceof Serie ? "serie" : "pelicula") + ": " + t.getNombre());
             System.out.println("   Tiempo de duración: " + t.getTiempoDeDuracionEnMinutos() + " minutos");
             if (t instanceof Serie) {
                 Serie serie = (Serie) t;
@@ -219,6 +225,9 @@ public class Principal {
         System.out.println("Total de minutos en series: " + totalMinutosSeries + " minutos");
         System.out.println("Total general de minutos: " + (totalMinutosPeliculas + totalMinutosSeries) + " minutos");
     }
+    
+    
+    
 }
 
 
