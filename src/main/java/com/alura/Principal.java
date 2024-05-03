@@ -66,9 +66,13 @@ public class Principal {
         double evaluacion;
         while (true) {
             try {
-                System.out.print("Ingrese la evaluación: ");
+                System.out.print("Ingrese la evaluación de 1 a 5: ");
                 evaluacion = Double.parseDouble(teclado.nextLine());
-                break;
+                if (evaluacion >= 1 && evaluacion <= 5) {
+                    break;
+                } else {
+                    System.out.println("Por favor, ingrese una evaluación válida entre 1 y 5.");
+                }
             } catch (NumberFormatException e) {
                 System.out.println("Por favor, ingrese una evaluación válida.");
             }
