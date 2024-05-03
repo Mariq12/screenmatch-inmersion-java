@@ -99,6 +99,7 @@ Dar clic en reproducir
   <img src="https://github.com/Mariq12/screenmatch-inmersion-java/assets/101030215/60d529fb-34a2-43f0-a6a2-c60a086cc8ea" alt="vid-a2-1">
 </p>
 
+[Ver video en YouTube](https://youtu.be/RLcPPVEHur4?si=Mjwp_X4F9LlNZDaQ)
 
 ## Tecnologías utilizadas durante el curso
 * Java
