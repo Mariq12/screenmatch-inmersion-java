@@ -59,7 +59,7 @@ public class Pelicula extends Titulo {
     }
 
     public void muestraFichaTecnica() {
-        System.out.println("\n**** FICHA TÉCNICA ****");
+        System.out.println("\n**** FICHA TÉCNICA PELICULA ****");
         System.out.println("Nombre del título: " + nombre);
         System.out.println("Fecha de Lanzamiento: " + fechaDeLanzamiento);
         System.out.println("Evaluación: " + evaluacion);
