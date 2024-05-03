@@ -92,6 +92,7 @@ Se registra las series
 
 ### Prueba 3
 Se calcula el maraton de peliculas y series.
+
 Dar clic en reproducir
 
 <p align="center">
